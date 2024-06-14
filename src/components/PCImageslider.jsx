@@ -43,7 +43,7 @@ const ImageSlider = () => {
                         className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
                     >
                         <a href="/product">
-                            <img src={image} alt={`Slide ${index + 1}`} className="mt-0 mb-0 pb-0 object-cover w-[1360px]" /></a>
+                            <img src={image} alt={`Slide ${index + 1}`} className="mt-0 mb-0 pb-0 object-cover w-screen" /></a>
                     </div>
                 ))}
             </div>
