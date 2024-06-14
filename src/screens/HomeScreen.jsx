@@ -12,9 +12,6 @@ export default class HomeScreen extends Component {
                 <HeroComp />
                 <DesktopHS />
                 <Footer />
-
-
-
             </>
         )
     }
